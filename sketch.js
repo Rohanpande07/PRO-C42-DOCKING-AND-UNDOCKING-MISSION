@@ -48,11 +48,13 @@ function draw() {
   
      if(keyDown("up")){
        spaceCraft.y -= 5;
-       spaceCraft.changeAnimation("spacecraft2",spaceCraftImg2);
      }
      if(keyDown("right")){
       spaceCraft.x += 5;
       spaceCraft.changeAnimation("spacecraft4",spaceCraftImg4);
+    }
+    if(keyDown("down")){
+      spaceCraft.changeAnimation("spacecraft2",spaceCraftImg2);
     }
   }
 
